@@ -1,0 +1,59 @@
+.bd-example img{
+  height: 725px;
+  max-height: 805px;
+  background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+}
+
+.img-1 {
+  background-image: url(images/background-img.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.img-2 {
+  background-image: url(images/background-img-2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.img-3 {
+  background-image: url(images/background-img-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  z-index: 0;
+}
+
+#aboutUs {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#appSummary {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+#footer {
+  display: flex;
+  background-color: #F8F9FA;
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer-content {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#credit{
+  margin-top: 10px;
+}
